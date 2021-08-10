@@ -55,7 +55,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link className="btn nav-button" to="/" role="button">
-            try for free
+            Try for free
           </Link>
         </div>
       </nav>
