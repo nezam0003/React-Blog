@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import { MdClose } from "react-icons/md";
 import { links } from "./NavbarData";
 
 const Navbar = () => {
@@ -31,7 +32,7 @@ const Navbar = () => {
               App<span>Lab</span>
             </NavLink>
             <button className="nav-toggle" onClick={toggleLinks}>
-              <FaBars />
+              {showLinks ? <MdClose /> : <FaBars />}
             </button>
           </div>
           <div className="links-container" ref={linksContainerRef}>
