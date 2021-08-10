@@ -41,7 +41,12 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <NavLink exact to={url} onClick={closeNavLinkOnMobileView}>
+                    <NavLink
+                      exact
+                      to={url}
+                      activeStyle={{ color: "#fcaf64" }}
+                      onClick={closeNavLinkOnMobileView}
+                    >
                       {text}
                     </NavLink>
                   </li>
@@ -49,7 +54,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <Link class="btn nav-button" to="/" role="button">
+          <Link className="btn nav-button" to="/" role="button">
             try for free
           </Link>
         </div>
