@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ChooseOurApp from "../../components/ChooseOurApp";
 import DesignIntegration from "../../components/DesignIntegration";
 import SmartJackPot from "../../components/smart-jackpot/SmartJackPot";
 import FeaturesContent from "./FeaturesContent";
@@ -18,6 +19,7 @@ const Features = () => {
         <SmartJackPot />
         <DesignIntegration />
       </FeatureSection>
+      <ChooseOurApp />
     </>
   );
 };
