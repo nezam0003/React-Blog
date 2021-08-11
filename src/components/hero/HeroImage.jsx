@@ -5,7 +5,7 @@ const HeroImage = () => {
   return (
     <>
       <div className="col-10 mx-auto  col-sm-10 col-md-6">
-        <img src={heroImg} alt="hero" className="img-fluid hero-img" />
+        <img src={heroImg} alt="hero" className="img-fluid custom-img" />
       </div>
     </>
   );
