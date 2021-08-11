@@ -85,6 +85,16 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
@@ -167,9 +177,7 @@ nav {
   overflow: hidden;
   transition: var(--transition);
 }
-/* .show-container {
-  height: 10rem;
-} */
+
 @media screen and (min-width: 800px) {
   .navbar-container {
     max-width: 1200px;
@@ -218,12 +226,4 @@ nav {
 /* Navbar  end*/
 
 /* Hero start */
-
-.custom-border {
-  border-radius: 1.5rem;
-}
-
-.custom-img {
-  max-width: 450px;
-}
 /* Hero end */

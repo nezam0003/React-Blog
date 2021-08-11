@@ -1,6 +1,7 @@
 import React from "react";
 import { HiBadgeCheck } from "react-icons/hi";
 import Title from "../Title";
+import Button from "../Button";
 
 const HeroContent = () => {
   return (
@@ -19,9 +20,7 @@ const HeroContent = () => {
             personal budgets
           </p>
           <div className="mt-2 mb-3">
-            <button className="btn btn-primary custom-border">
-              Try for free
-            </button>
+            <Button text="try for free" />
             <button className="btn text-primary mx-2">watch demo video</button>
           </div>
         </div>

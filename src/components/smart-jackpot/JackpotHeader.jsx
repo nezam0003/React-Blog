@@ -5,10 +5,8 @@ const JackpotHeader = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-6 mb-sm-4 border-end border-2">
-          <div
-            style={{ maxWidth: "90%", textAlign: "center", padding: "1rem" }}
-          >
+        <div className="col-10 mx-auto col-md-6 mb-sm-4 border-end border-2">
+          <div style={{ maxWidth: "90%", padding: ".5rem" }}>
             <Title title="smart jackpot that you may love this anytime & anywhere" />
           </div>
         </div>

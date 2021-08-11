@@ -13,7 +13,7 @@ const SmartJackPot = () => {
 };
 
 const JackpotMainContent = styled.div`
-  padding: 4rem 0rem;
+  padding: 4rem 0rem 0rem 0rem;
   background: #fff;
 `;
 
