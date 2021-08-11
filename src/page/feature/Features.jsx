@@ -1,4 +1,5 @@
 import React from "react";
+import SmartJackPot from "../../components/smart-jackpot/SmartJackPot";
 import FeaturesContent from "./FeaturesContent";
 import FeaturesImage from "./FeaturesImage";
 
@@ -11,6 +12,7 @@ const Features = () => {
           <FeaturesContent />
         </div>
       </div>
+      <SmartJackPot />
     </>
   );
 };
