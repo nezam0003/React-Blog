@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import JackpotContent from "./JackpotContent";
 import JackpotHeader from "./JackpotHeader";
 
 const SmartJackPot = () => {
   return (
     <JackpotMainContent>
       <JackpotHeader />
+      <JackpotContent />
     </JackpotMainContent>
   );
 };
 
 const JackpotMainContent = styled.div`
-  width: 100vw;
-  height: 100vh;
   padding: 4rem 0rem;
   background: #fff;
 `;

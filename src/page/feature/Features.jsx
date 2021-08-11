@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import SmartJackPot from "../../components/smart-jackpot/SmartJackPot";
 import FeaturesContent from "./FeaturesContent";
 import FeaturesImage from "./FeaturesImage";
@@ -6,15 +7,23 @@ import FeaturesImage from "./FeaturesImage";
 const Features = () => {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <FeaturesImage />
-          <FeaturesContent />
+      <FeatureSection>
+        <div className="container">
+          <div className="row">
+            <FeaturesImage />
+            <FeaturesContent />
+          </div>
         </div>
-      </div>
-      <SmartJackPot />
+        {/* smart-jackpot section */}
+        <SmartJackPot />
+      </FeatureSection>
     </>
   );
 };
+
+const FeatureSection = styled.section`
+  width: 100vw;
+  height: 100%;
+`;
 
 export default Features;
