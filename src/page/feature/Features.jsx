@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ChooseOurApp from "../../components/ChooseOurApp";
 import DesignIntegration from "../../components/DesignIntegration";
 import SmartJackPot from "../../components/smart-jackpot/SmartJackPot";
+import UltimateFeature from "../../components/UltimateFeature";
 import FeaturesContent from "./FeaturesContent";
 import FeaturesImage from "./FeaturesImage";
 
@@ -18,8 +19,9 @@ const Features = () => {
         </div>
         <SmartJackPot />
         <DesignIntegration />
+        <ChooseOurApp />
+        <UltimateFeature />
       </FeatureSection>
-      <ChooseOurApp />
     </>
   );
 };

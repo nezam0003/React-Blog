@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
 
-import { SiProtoDotIo } from "react-icons/si";
 import { FcSupport, FcWorkflow } from "react-icons/fc";
 import { MdDeveloperMode } from "react-icons/md";
 import { FaAward } from "react-icons/fa";
