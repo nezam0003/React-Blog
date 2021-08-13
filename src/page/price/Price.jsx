@@ -12,7 +12,6 @@ const allCategories = [
 
 const Price = () => {
   const [menuItems, setMenuItems] = useState(priceLists);
-  const [categories, setCategories] = useState(allCategories);
 
   // Filter price list by category
   const filterPriceList = (category) => {
@@ -29,7 +28,10 @@ const Price = () => {
   return (
     <PriceSection>
       <PriceHeader />
-      <Categories categories={categories} filterPriceList={filterPriceList} />
+      <Categories
+        categories={allCategories}
+        filterPriceList={filterPriceList}
+      />
       <Menu items={menuItems} />
     </PriceSection>
   );
