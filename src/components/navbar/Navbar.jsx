@@ -4,6 +4,8 @@ import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { links } from "./NavbarData";
 
+import { NavbarStyled } from "../../styles/Layouts";
+
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
@@ -25,7 +27,7 @@ const Navbar = () => {
   }, [showLinks]);
   return (
     <>
-      <nav>
+      <NavbarStyled>
         <div className="navbar-container">
           <div className="nav-header">
             <NavLink className="logo" exact to="/">
@@ -58,7 +60,7 @@ const Navbar = () => {
             Try for free
           </Link>
         </div>
-      </nav>
+      </NavbarStyled>
     </>
   );
 };
