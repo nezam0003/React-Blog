@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="nav-header">
             <NavLink className="logo" exact to="/">
-              App<span>Lab</span>
+              My<span>Blog</span>
             </NavLink>
             <button className="nav-toggle" onClick={toggleLinks}>
               {showLinks ? <MdClose /> : <FaBars />}
