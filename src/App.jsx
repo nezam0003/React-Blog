@@ -10,6 +10,7 @@ import Price from "./page/price/Price";
 import Testiminial from "./page/testiminial/Testiminial";
 import FrequentlyAskedQuestion from "./page/faq/FrequentlyAskedQuestion";
 import ErrorPage from "./page/ErrorPage";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route component={ErrorPage} />
         </Switch>
       </MainContent>
+      <Footer />
     </>
   );
 };
